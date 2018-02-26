@@ -1,0 +1,16 @@
+{
+  "name": "hello-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satoshi Watanabe",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
