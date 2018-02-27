@@ -25,6 +25,6 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.js', '.css']
+        extensions: ['.js', '.css']  //importの時にファイル名からここに書いてある拡張子は省略できる
     }
 };
