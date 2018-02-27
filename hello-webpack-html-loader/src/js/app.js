@@ -1,3 +1,4 @@
-const html = require('../html/app.html');
+import html from '../html/app.html';
+
 console.log(html);
 document.body.innerHTML = html;
