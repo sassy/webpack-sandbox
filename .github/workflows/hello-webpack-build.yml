@@ -31,3 +31,7 @@ jobs:
         cd hello-webpack-html-loader
         npm install
         npm run build
+    - run: |
+        cd hello-webpack-css-loader
+        npm install
+        npm run build
