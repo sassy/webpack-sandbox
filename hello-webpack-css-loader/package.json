@@ -10,9 +10,9 @@
   "author": "Satoshi Watanabe",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^0.28.10",
-    "style-loader": "^0.20.2",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.9"
+    "css-loader": "0.28.11",
+    "style-loader": "0.23.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "2.0.9"
   }
 }
