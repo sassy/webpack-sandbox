@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     mode: 'production',
@@ -10,6 +11,7 @@ module.exports = {
     },
     //optimizationの設定
     optimization: {
-        minimize: true  //webpack4ではwebpack.optimize.UglifyJsPluginは使えない
+        minimize: true,  //webpack4ではwebpack.optimize.UglifyJsPluginは使えない
+        minimizer: [new TerserPlugin()],
     },
 }
