@@ -39,3 +39,7 @@ jobs:
         cd hello-webpack-optimization
         npm install
         npm run build
+    - run: |
+        cd hello-webpack-typescript
+        npm install
+        npm run build
