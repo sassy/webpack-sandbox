@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+// uglifyjs-webpack-plugin は deprecated. terser-pluginを使う
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
